@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bethany Wright - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Bethany Wright</h1>
+        <nav>
+            <u1>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+            </u1>
+        </nav>
+    </header>
+
+<main>
+    <section id="portfolio">
+        <div class="project" onclick="openModal('project1')">
+            <img src="project1.jpg" alt="Project 1 example description">
+            <h3>Project 1</h3>
+        </div>
+        <div class="project" onclick="openModal('project2')">
+            <img src="project2.jpg" alt="Project 2 example description">
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Bethany Wright</p>
+</footer>
+
+<div id="project1Modal" class="modal" onclick="closeModal('project1')">
+    <img src="project1.jpg" alt="Project 1">
+    <p>Description of Project 1.</p>
+</div>"
+
+<div id="project2Modal" class="modal" onclick="closeModal('project2')">
+    <img src="project2.jpg" alt="Project 2">
+    <p>Description of Project 2</p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
